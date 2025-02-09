@@ -1,0 +1,1 @@
+This repository demonstrates a subtle but problematic error in MATLAB: the improper use of the `error()` function within a function designed to return a value.  The `error()` function immediately terminates execution, preventing the intended return value.  The provided `bug.m` file showcases the error, while `bugSolution.m` offers a corrected version using a more robust approach.
